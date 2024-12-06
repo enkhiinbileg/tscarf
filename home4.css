@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img_homepage_slider1.jpg');
+    background-position: top;
+    background-size: cover;
+   
+}
+
+.header nav {
+    width: 100%;
+    height: 112px;
+    
+}
+.header nav .menu{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.header nav .menu .menu-item{
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.header nav .menu .menu-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header nav .menu .menu-item p {
+letter-spacing: .5em;
+}
+
+.header .Hero{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header .Hero h1{
+    width: 80%;
+    height: 182px;
+    font-size: 4em;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.p2{
+    position: relative;
+    top:10px;
+}
+.p1{
+    margin-bottom: 20px;
+    padding-top: 5px;}
+
+.Signature{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px
+}
+.Signature h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px black;
+}
+.Signature p{
+    text-align: center;
+}
+
+.Signature .collection{
+    width: 80%;
+    display: flex;
+}
+.Signature .collection .collection-cart{
+    width: 33%;
+    height: 400px;
+}
+.Signature .collection .collection-cart img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Signature2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px
+}
+.Signature2 h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 5px;
+    object-fit: contain;
+    border-bottom: 1px solid black ;
+}
+.Signature2 p{
+    text-align: center;
+}
+
+.Signature2 .collection{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Signature2 .collection .collection-cart{
+    width: 33%;
+    height: 400px;
+}
+.Signature2 .collection .collection-cart img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.end .end-cart img{
+    width: 100%;
+    height: 100%;
+   
+
+}
+.end2{
+    background-color:rgb(246, 248, 219) ;
+    width: 100%;
+    height:958px;
+    margin: -10px;
+    padding: 100px;
+}
+.end2 h1{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 5px;
+    object-fit: contain;
+    border-bottom: 1px solid black ;
+}
+.end2 .p2{
+    text-align: center;
+    font-size: 30px;
+    margin: 13px;
+}
+.end2 .p1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    
+
+}
+.end2 .collection{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.end2 .collection .collection-cart{
+    width: 33%;
+    height: 400px;
+}
+.end2 .collection .collection-cart img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
